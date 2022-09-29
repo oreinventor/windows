@@ -1,0 +1,26 @@
+	a tutorial by oreinventor, iNiGMa
+
+Requirements:
+	1- Backup aero.msstyles under C:\Windows\Resources\Themes\Aero
+	2- Install Resource Hacker
+	3- Install a hex editor. I recommend hxd editor.
+	4- Mspaint or any image editor.
+	5- Calculator binary mode
+
+Step-by-Step
+
+	1) Copy aero.msstyles and open the copy in the resource hacker editor
+	2) Go to IMAGE> and save to png the following files:
+		692,818,819,820
+	3) Edit the png files in mspaint and change to your preffered color
+	4) Go back to the resource editor, Under IMAGE> right click and replace the following files:
+		685-692,818-820
+	5) Open VARIANT> NORMAL then save to res file
+	6) Open the NORMAL.res in the hex editor
+	7) Replace all entries FCFCFC for the binary color code of the explorer window color
+	8) Replace all entries FFFFFF for the binary color code of the control panel color
+	9) Save the new hex NORMAL.res
+	10) Open Resource Hacker and replace VARIANT>NORMAL for the new one you edited in 6-9
+	11) Open menu and Save as, then name it as the new msstyle file ( aero_<nameofthenewtheme>.msstyles )
+	12) Copy the new msstyle file to C:\Windows\Resources\Themes\Aero
+	13) Run color_change_scheme.bat
