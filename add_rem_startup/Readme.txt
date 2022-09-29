@@ -1,5 +1,5 @@
 Toggle StartUp on right click context
-	Created by Thgo, oreinventor, iNi
+	Created by Thgo, oreinventor, iNiGMa
 
 Description:
 
